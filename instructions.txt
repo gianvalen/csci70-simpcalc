@@ -1,0 +1,34 @@
+# SimpCalc Project
+
+Authors: Jade Ramos, Rafael Sese, Gian Valencia
+
+## How to Run
+
+There are two ways to run the project:
+
+### Option 1 – Manual:
+
+1. Make sure all input files are in the same directory. Scanner expects files in the format:
+   sample_input*.txt
+
+2. Run the scanner:
+   python scanner.py
+
+   This will produce output files in the format:
+   sample_output_scan*.txt
+
+3. Run the parser:
+   python parser.py
+
+   The parser reads sample_output_scan*.txt and produces files in the format:
+   sample_output_parse*.txt
+
+### Option 2 – Using run.py:
+
+1. Make sure all input files are in the same directory. Scanner expects files in the format:
+   sample_input*.txt
+
+2. Run the combined script:
+   python run.py
+   
+   This will automatically run the scanner and parser on all relevant files and produce the corresponding outputs.
